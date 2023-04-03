@@ -35,3 +35,22 @@ Expressions:
 Variables:
 	-we can use variable to store values
 	-it's a good practice to use meaningful variable names
+
+---------------------------------------------------------------------------
+Error codes:
+	-NameError
+	-SyntaxError
+
+---------------------------------------------------------------------------
+Python Random Bits:
+	-PYTHON VERSION
+	 [
+	  import sys
+	  print(sys.version)
+	]
+	-python is an INTERPRETED language, i.e., it interprets the script 
+	 line by line while executing it
+	-SYSTEM SETTINGS ABOUT FLOAT TYPE
+	 [
+	  sys.float_info
+	 ] 
