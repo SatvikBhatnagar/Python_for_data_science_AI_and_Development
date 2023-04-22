@@ -53,4 +53,35 @@ Python Random Bits:
 	-SYSTEM SETTINGS ABOUT FLOAT TYPE
 	 [
 	  sys.float_info
-	 ] 
+	 ]
+
+---------------------------------------------------------------------------
+STRINGS: Slicing
+	Name = "Ram Chandra"
+	-Indexing starts with 0
+	Name[0:4] = Ram 
+	Name[-1] = a
+	len(Name) = 11
+	
+	-Immutable
+	-Escape Secquences:
+		"\" are meant to proceed escape sequences
+		\n :- for new line
+		\t :- for tab
+		\\ :- for blackslash 
+
+--strings are sequences, so have methods that work on lists and tuples
+  (sequence methods)
+--strings also have its own methods (string methods)
+
+STRINGS: Methods
+	REPLACE
+	a = 'something is true'
+	b = a.replace('something', 'nothing')
+	b:- 'nothing is true'
+	
+	UPPER
+	FIND - a.find('nothing') -- output is the first index of the 
+		first occuring, if doesn't exist, -1
+
+----------------------------------------------------------------------------
