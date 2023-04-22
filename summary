@@ -59,7 +59,8 @@ Python Random Bits:
 STRINGS: Slicing
 	Name = "Ram Chandra"
 	-Indexing starts with 0
-	Name[0:4] = Ram 
+	Name[0:4] = Ram ----- TIP: the first number means the INDEX and the
+				last number means the LENGTH from the index 
 	Name[-1] = a
 	len(Name) = 11
 	
