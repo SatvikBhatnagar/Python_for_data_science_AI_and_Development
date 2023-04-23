@@ -118,3 +118,37 @@ RegEx (Regular Expressions) -- a tool for matching and handling strings
 	\B - matches any position that is not a word boundary
 			"cat" matches "\Bcat\B" in "category" but not in 
 			"The cat sat on the mat"
+
+----------------------------------------------------------------------------
+TUPLES
+	-an ORDERED sequence
+	-are IMMUTABLE
+	-a tuple can contain other tuples as well as other complex 
+	 data types
+
+LISTS
+	-an ORDERED sequence
+	-are mutable
+	L.extend(a) -- add the list 'a' to the list L
+	L.append(b) -- add one element b (could be a complex object) 
+			to list L
+	del(L[0]) -- deletes the first element of the list L
+	
+	Convert string to list --
+			"hard rock".split()
+			["hard", "rock"]
+			--split() method needs a delimiter, if none
+			  is provided, it splits using spaces
+
+	ALIASING -- multiple names referring to the same object is known
+		as ALIASING
+			A=[1,2,3]
+			B=A
+			-here both refers to the same list, no new list
+			 B has been created here
+			-since both refers to the same list, if we change
+			 one of the elements of the list using either A or
+			 B, printing both the lists will result in the same
+			 list because both are referencing to the same list
+	Cloning -- new copy of the list
+			 B=A[:]
