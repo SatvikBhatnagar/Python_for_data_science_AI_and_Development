@@ -86,3 +86,35 @@ STRINGS: Methods
 		first occuring, if doesn't exist, -1
 
 ----------------------------------------------------------------------------
+RegEx (Regular Expressions) -- a tool for matching and handling strings
+
+	search() -- search function searches for specified patterns within
+		a string
+	findall() -- finds all occurrencese of a specified pattern within
+		a string
+	split() -- splits a string into an array of substrings based on
+		a specified pattern
+	sub() -- the sub function of a regular expression in Python is used
+		to replace all occurrences of a pattern in a string with a
+		specified replacement
+		-- re.sub(pattern, replacement, string)
+
+	import re
+	\d - matches any digit character 
+			"123" matches "\d\d\d"
+	\D - matches any non-digit character
+			"hello" matches "\D\D\D\D\D"
+	\w - any word character (a-z, A-Z, 0-9, and _)
+			"hello_world" matches "\w\w\w\w\w\w\w\w\w"
+	\W - any non-word character
+			"@#$%" matches \W\W\W\W"
+	\s - any whitespace character (space, tab, newline, etc.) 
+			"hello world" matches "\w\s\w\w\w\w\w"
+	\S - any non-whitespace character 
+			"hello_world" matches "\S\S\S\S\S\S\S\S\S"
+	\b - matches the boundary between a word character and a non-word
+			character
+			"cat" matches "\bcat\b" in "The cat sat on the mat"
+	\B - matches any position that is not a word boundary
+			"cat" matches "\Bcat\B" in "category" but not in 
+			"The cat sat on the mat"
