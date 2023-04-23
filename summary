@@ -125,6 +125,13 @@ TUPLES
 	-are IMMUTABLE
 	-a tuple can contain other tuples as well as other complex 
 	 data types
+	
+	SORTING -- sort the values in a tuple
+		Ratings = (0,9,6)
+		RatingsSorted = sorted(Ratings)
+	tupleName.index("") -- for the index
+
+----------------------------------------------------------------------------
 
 LISTS
 	-an ORDERED sequence
