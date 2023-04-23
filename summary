@@ -152,3 +152,6 @@ LISTS
 			 list because both are referencing to the same list
 	Cloning -- new copy of the list
 			 B=A[:]
+
+----------------------------------------------------------------------------
+
