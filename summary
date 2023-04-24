@@ -161,4 +161,15 @@ LISTS
 			 B=A[:]
 
 ----------------------------------------------------------------------------
+DICTIONARIES
 
+	-the keys have to be IMMUTABLE and UNIQUE
+	-the values can be immutable, mutable and duplicates
+	dict = {1:"hello", 2:"bye"}
+	dict[1] --> "hello"
+	dict[3] = "hi" -- adds the key value pair to the dictionary
+	del(dict[3]) -- deletes the key '3' and its value
+	"2" in dict -- returns True
+	"3" in dict -- returns False
+	dict.keys() -- returns all the keys in the dictionary
+	dict.values() -- returns all the values in the dictionary
