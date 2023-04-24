@@ -165,6 +165,12 @@ DICTIONARIES
 
 	-the keys have to be IMMUTABLE and UNIQUE
 	-the values can be immutable, mutable and duplicates
+	-the keys can be strings, tuple
+
+	-for every key, there can only be ONE SINGLE VALUE
+	-multiple keys can hold the same value
+	-values can be any data type
+
 	dict = {1:"hello", 2:"bye"}
 	dict[1] --> "hello"
 	dict[3] = "hi" -- adds the key value pair to the dictionary
