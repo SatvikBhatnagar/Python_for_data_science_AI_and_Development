@@ -179,3 +179,30 @@ DICTIONARIES
 	"3" in dict -- returns False
 	dict.keys() -- returns all the keys in the dictionary
 	dict.values() -- returns all the values in the dictionary
+
+----------------------------------------------------------------------------
+SETS
+
+	-UNORDERED
+	-have only UNIQUE elements        
+	-if duplicate items are entered into a set, they are removed
+	 automatically
+	-TYPE CASTING - convert list into a set by using set()
+	
+	Set Operations
+		A = {}
+		A.add() -- to add an element to the set
+		A.remove() -- to remove an element from the set
+		"something" in A -- returns True if the item is in the set
+		 	 	    False otherwise
+
+		INTERSECTION
+			set_A & set_B -- gives the intersection of set_A 
+					and set_B
+		UNION
+			set_A.union(set_B) -- gives the union of the sets
+		SUBSET
+			set_B.issubset(set_A) -- to check if set_B is a
+						subset of set_A
+
+----------------------------------------------------------------------------
