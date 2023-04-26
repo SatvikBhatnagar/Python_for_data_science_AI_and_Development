@@ -204,5 +204,11 @@ SETS
 		SUBSET
 			set_B.issubset(set_A) -- to check if set_B is a
 						subset of set_A
+		SUPERSET
+			set_A.issuperset(set_B)
+		DIFFERENCE
+			-find all the elements that are only contained in
+			 set_A
+				set_A.difference(set_B)
 
 ----------------------------------------------------------------------------
