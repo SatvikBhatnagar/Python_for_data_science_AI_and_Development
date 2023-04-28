@@ -212,3 +212,32 @@ SETS
 				set_A.difference(set_B)
 
 ----------------------------------------------------------------------------
+CONDITIONALS
+
+	if (condtion):
+		code
+	-------------------------
+	
+	if (condition):
+		code
+	else:
+		code
+	-when the if condition is met, else conditional is skipped
+	-------------------------
+	if (condition):
+		code
+	elif (condition):
+		code
+	else:
+		code
+
+----------------------------------------------------------------------------
+LOGIC OPERATORS
+	
+	not -- reverses the boolean (True or False) operator
+	or -- only results in False if all the input values are False, True 
+		in all the other cases
+	and -- produces True if all the input values are True, False in all
+		the other cases
+
+----------------------------------------------------------------------------
