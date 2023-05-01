@@ -231,6 +231,20 @@ CONDITIONALS
 	else:
 		code
 
+COMPARISON OPERATORS
+	
+	-equal: ==
+	-not equal: !=
+	-greater than: >
+	-less than: <
+	-greater than or equal to: >=
+	-less than or equal to: <=
+
+	-the inequality operation is also used to compare the letters/words/
+	 symbols according to the ASCII value of letters. All the symbols
+	 (even the + or ! operators) have their ASCII value which is 
+	 compared. When there are multiple letters to compare, the first 
+	 letter takes precedence in ordering.
 ----------------------------------------------------------------------------
 LOGIC OPERATORS
 	
